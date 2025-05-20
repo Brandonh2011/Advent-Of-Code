@@ -11,7 +11,7 @@ int main()
 {
 	vector<int> left_list;
 	vector<int> right_list;
-	ifstream inputfile("./input.txt");
+	ifstream inputfile("../input.txt");
 
 	int left, right;
 	while (inputfile >> left >> right)
